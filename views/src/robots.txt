@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://cloudux.xyz/sitemap.xml
