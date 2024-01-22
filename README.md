@@ -1,9 +1,3 @@
-![Banner](./soft-ui_bg.png)
-
-## Information
-
-This theme is in beta release, more information at [discord-dashboard discord](https://discord.gg/CHbfcSbEgd).
-
 ## Documentation
 
 Docs are available at [Soft-UI Docs](https://dbd-docs.assistantscenter.com/soft-ui/).
