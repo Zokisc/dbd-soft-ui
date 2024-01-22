@@ -21,8 +21,8 @@ _______|_______/__/ ____ \__\__|___\__\__|___\__\____
 
 /* Dashboard CSS */
 .rightCircle {
-    background-color: #181a1b !important;
-    box-shadow: 0 0 0 1px #181a1b !important;
+    background-color: #101211 !important;
+    box-shadow: 0 0 0 1px #101211 !important;
 }
 .maintenance.blur {
     background-color: rgba(24, 27, 25, 0.8) !important;
@@ -52,7 +52,7 @@ _______|_______/__/ ____ \__\__|___\__\__|___\__\____
 .js-example-basic-multiple.form-controlselect2-hidden-accessible,
 .select2-container--default .select2-selection--multiple,
 .select2-container--classic .select2-selection--multiple {
-    background: #181a1b !important;
+    background: #101211 !important;
 }
 
 .select2-selection.select2-selection--multiple.form-control {
@@ -97,14 +97,14 @@ _______|_______/__/ ____ \__\__|___\__\__|___\__\____
 }
 
 .preloader {
-    background-color: rgb(27 30 31) !important;
+    background-color: rgb(16, 18, 17) !important;
 }
 
 /*! Dark reader generated CSS | Licensed under MIT https://github.com/darkreader/darkreader/blob/master/LICENSE */
 
 /* User-Agent Style */
 html {
-    background-color: #181a1b !important;
+    background-color: #101211 !important;
 }
 
 html,
@@ -113,7 +113,7 @@ input,
 textarea,
 select,
 button {
-    background-color: #181a1b;
+    background-color: #101211;
 }
 
 html,
@@ -158,7 +158,7 @@ select:-webkit-autofill {
     background-color: #484e51;
 }
 ::-webkit-scrollbar-corner {
-    background-color: #181a1b;
+    background-color: #101211;
 }
 
 ::selection {
