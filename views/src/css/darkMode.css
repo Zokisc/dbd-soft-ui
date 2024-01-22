@@ -3063,7 +3063,7 @@ iframe {
 .list-group-item-action:focus {
     color: rgb(181, 175, 166);
     text-decoration-color: initial;
-    background-color: rgb(27, 30, 31);
+    background-color: rgb(16, 18, 17);
 }
 
 .list-group-item-action:active {
@@ -3820,7 +3820,7 @@ iframe {
 }
 
 .bg-gray-100 {
-    background-color: rgb(27, 30, 31) !important;
+    background-color: rgb(16, 18, 17) !important;
 }
 
 .bg-gray-200 {
@@ -5797,7 +5797,7 @@ hr.horizontal.gray-light {
 
 .nav.nav-pills {
     background-image: initial;
-    background-color: rgb(27, 30, 31);
+    background-color: rgb(16, 18, 17);
 }
 
 .nav.nav-pills .nav-link {
@@ -7215,7 +7215,7 @@ code[class*="language-"] ::selection {
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
     background-image: initial;
-    background-color: rgb(27, 30, 31);
+    background-color: rgb(16, 18, 17);
 }
 
 .token.comment,
@@ -8323,5 +8323,5 @@ gr-main-header {
 }
 
 html {
-    background: rgb(27, 30, 31) !important;
+    background: rgb(16, 18, 17) !important;
 }
