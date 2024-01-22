@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <script>
+        window.onload = function () {
+            if(window.location.search.startsWith("?redirect=")) window.opener.location = window.location.replace("?redirect=", "");
+            else window.location.href = `settings/<%= req.params.id %>`;
+        }
+    </script>
+</head>
+
+<body class="g-sidenav-show bg-gray-100">
+</body>
+
+</html>
