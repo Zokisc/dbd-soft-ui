@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/preloader.ejs', {now: 'credits'}) %>
+    <%- themeConfig?.customHtml %>
+</head>
+
+<body class="g-sidenav-show bg-gray-100" id="scroll">
+<%- include('partials/preload.ejs') %>
+<%- include('partials/sidebar.ejs', {config: config, now:'credits'}) %>
+<div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
+    <!-- Navbar -->
+    <%- include('partials/navbar.ejs', {now:'credits'}) %>
+    <!-- End Navbar -->
+    <div class="container-fluid py-4" style="padding-bottom: 0px !important;">
+        <div id="discordRocket" style="display: none;">
+            <div id="rocketDiscord"
+                 style="position: absolute; margin: 0; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 420;">
+                <i class="fab fa-discord fa-10x" aria-hidden="true"></i>
+            </div>
+            <p style="font-size: 150%; position: absolute; margin: 0; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                Taking you to <b>discord.gg</b></p>
+            <!-- i cant figure out how to center this -->
+        </div>
+        <section class="py-sm-7 py-5 position-relative" id="mainSection" style="padding-top: 0px !important;">
+            <div>
+                <div class="row mb-4">
+                    <div class="col-lg-12 mb-lg-0 mb-4" style="padding: 0px">
+                        <div class="card">
+                            <div class="card-body p-3">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="d-flex flex-column h-100">
+                                            <p class="mb-1 pt-2 text-bold">About Me</p>
+                                            <h5 class="font-weight-bolder">Cloudux</h5>
+                                            <p>Cloudux has been completely redesigned to cater to your preferences and tastes, with an emphasis on user-friendliness and customization. Cloudux is easy to use and customize, allowing you to tailor it to your server’s unique needs and preferences.</p>
+                                            
+                                                <a class="text-body text-sm font-weight-bold mb-0 icon-move-right"
+                                                   href="https://discord.gg/7fFfZxgYFn">
+                                                    Visit our Discord Server
+                                                    <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                                                </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 ms-auto text-center mt-5 mt-lg-0">
+                                        <div class="bg-gradient-primary border-radius-lg h-100"
+                                             style="background-image: url('/img/cloudux.webp') !important; background-repeat: no-repeat; background-size: contain; background-position: center;">
+                                            <div class="position-relative d-flex align-items-center justify-content-center h-100"
+                                                 style="min-height: 210px !important;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 d-flex" style="justify-content: space-between;">
+                    <div class="card" style="width: 320px; height: 550px; text-align: center;">
+                        <div class="p-3">
+                            <img class="img border-radius-100 max-width-200 w-100 position-relative z-index-2"
+                                 src="https://cdn.discordapp.com/attachments/1057711863015673970/1198449013373014096/discord.png?ex=65bef19e&is=65ac7c9e&hm=374b3f2ceabd9add32d28120cde9bad9e7d451decae9e581786ac03bf6011bc5&"
+                                 style="width: 200px; height: 200px; border-radius: 7%;"
+                                 alt="Zokys">
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="p-3 text-center" style="text-align: left !important; padding-top: 0 !important;">
+                                <h2 class="text-gradient text-primary">Zokys</h2>
+                                <h5 class="mt-1" style="margin-bottom: 0;">GFX Designer</h5>
+                                <p>Zokys is a skilled developer and GFX designer. With a keen eye for design, he delivers best ideas in both the development and design realms.</p>
+                                <div style="position: absolute; bottom: 15px;">
+                                    <a class="text-body text-bg font-weight-bold mb-0 icon-move-right"
+                                       href="https://dsc.gg/cloudux">
+                                        Discord Server
+                                        <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 320px; height: 550px; text-align: center;">
+                        <div class="p-3">
+                            <img class="img border-radius-100 max-width-200 w-100 position-relative z-index-2"
+                                 src="https://cdn.discordapp.com/attachments/1057711863015673970/1198449013373014096/discord.png?ex=65bef19e&is=65ac7c9e&hm=374b3f2ceabd9add32d28120cde9bad9e7d451decae9e581786ac03bf6011bc5&"
+                                 style="width: 200px; height: 200px; border-radius: 7%;"
+                                 alt="Aayush">
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="p-3 text-center" style="text-align: left !important; padding-top: 0 !important;">
+                                <h2 class="text-gradient text-primary">Aayu5h</h2>
+                                <h5 class="mt-1" style="margin-bottom: 0;">Developer</h5>
+                                <p>Aayush is a passionate developer skilled in HTML, CSS, JavaScript, Bootstrap and Node.js, dedicated to creating advanced websites and Discord bots.</p>
+                                <div style="position: absolute; bottom: 15px;">
+                                    <a class="text-body text-bg font-weight-bold mb-0 icon-move-right"
+                                       href="https://discord.gg/XJjXwZVVB7">
+                                        Discord Server
+                                        <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 320px; height: 550px; text-align: center;">
+                        <div class="p-3">
+                            <img class="img border-radius-100 max-width-200 w-100 position-relative z-index-2"
+                                 src="https://cdn.discordapp.com/attachments/1057711863015673970/1198446751611355246/AIf8zZQ6Beteem4h6iwgtemlku2M0sJjq64BgZFculaewgs900-c-k-c0x00ffffff-no-rj_2.png?ex=65beef83&is=65ac7a83&hm=4cebc217854d584c6efb2b6f6d19180c605666e6b253d414e684451cc69ab95d&"
+                                 style="width: 200px; height: 200px;"
+                                 alt="Empty">
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="p-3 text-center" style="text-align: left !important; padding-top: 0 !important;">
+                                <h2 class="text-gradient text-primary">     </h2>
+                                <h5 class="mt-1" style="margin-bottom: 0;">     </h5>
+                                <p>     </p>
+                                <div style="position: absolute; bottom: 15px;">
+                                    <a class="text-body text-bg font-weight-bold mb-0 icon-move-right"
+                                       href="https://discord.gg/">
+                                        Discord Server
+                                        <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 320px; height: 550px; text-align: center;">
+                        <div class="p-3">
+                            <img class="img border-radius-100 max-width-200 w-100 position-relative z-index-2"
+                                 src="https://cdn.discordapp.com/attachments/1057711863015673970/1198446751611355246/AIf8zZQ6Beteem4h6iwgtemlku2M0sJjq64BgZFculaewgs900-c-k-c0x00ffffff-no-rj_2.png?ex=65beef83&is=65ac7a83&hm=4cebc217854d584c6efb2b6f6d19180c605666e6b253d414e684451cc69ab95d&"
+                                 style="width: 200px; height: 200px;"
+                                 alt="Empty">
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="p-3 text-center" style="text-align: left !important; padding-top: 0 !important;">
+                                <h2 class="text-gradient text-primary">     </h2>
+                                <h5 class="mt-1" style="margin-bottom: 0;">     </h5>
+                                <p>     </p>
+                                <div style="position: absolute; bottom: 15px;">
+                                    <a class="text-body text-bg font-weight-bold mb-0 icon-move-right"
+                                       href="https://discord.gg/">
+                                        Discord Server
+                                        <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <%
+    const images = ["curved-1", "curved-2", "curved-3", "curved-4", "curved-5", "curved-6", "curved-7", "curved-8", "curved-9", "curved-10", "curved-11", "curved-12", "curved-13", "curved-14", "curved-15", "curved-16", "curved-17", "curved-18"];
+
+    const image = images[Math.floor(Math.random() * images.length)];
+    %>
+    <section class="pb-7 position-relative" id="getHelp">
+        <div class="page-header min-vh-50 m-3 border-radius-xl"
+             style="background-image: url('/img/curved-images/<%- image %>.webp');">
+             <span class="mask bg-gradient-dark opacity-8"></span>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center mx-auto">
+                        <h1 class="text-white mt-4 mb-1">Got a question?</h1>
+                        <p class="lead text-white mb-6">Join our discord server!</p>
+                    </div>
+                    <button type="button" style="border: none; background: none; cursor: pointer;" id="discordButton"
+                            onclick="supportServer()">
+                        <i class="fab fa-discord fa-7x" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <%- include('partials/footer.ejs') %>
+    </section>
+</div>
+</main>
+<script>
+    let disableFunc = false;
+    var win;
+
+    function supportServer() {
+        if (disableFunc) return;
+        disableFunc = true;
+        $('#discordButton').parent().css('overflow', 'hidden');
+        $('#discordButton').animate({'margin-top': '-=50px'});
+        $('#discordButton').animate({'margin-top': '+=500px', opacity: 0}, function () {
+            $(this).hide();
+        });
+        $("#discordRocket").fadeIn();
+        setTimeout(function () {
+            $('#rocketDiscord').animate({'margin-top': '+=600px'}, 1);
+            $("#mainSection").fadeOut();
+            $("#main2").fadeOut();
+            $("#getHelp").fadeOut();
+        }, 1000)
+        setTimeout(function () {
+            setTimeout(function () {
+                $('#rocketDiscord').animate({'margin-top': '+=75px'});
+                $('#rocketDiscord').animate({'margin-top': '-=1000px'}, 1500);
+                setTimeout(function () {
+                    window.open('https://discord.gg/7fFfZxgYFn', '_blank', 'location=yes,height=1200,width=800');
+
+                    $("#rocketDiscord").fadeOut();
+                    $("#discordRocket").fadeOut();
+
+                    setTimeout(function () {
+                        disableFunc = false;
+                        location.reload();
+                    }, 3500)
+                }, 1200)
+            }, 1500)
+        }, 2000);
+    }
+
+
+</script>
+
+
+<%- include('partials/scripts.ejs', {now: "credits"}) %>
+</body>
+
+</html>
